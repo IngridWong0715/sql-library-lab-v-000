@@ -30,3 +30,10 @@ CREATE TABLE characters(
   species TEXT,
   subgenre_id INTEGER
 );
+
+CREATE TABLE character_books(
+  id INTEGER PRIMARY KEY,
+  title TEXT,
+  author_id INTEGER,
+  subgenre_id INTEGER
+);
