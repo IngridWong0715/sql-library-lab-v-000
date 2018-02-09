@@ -6,7 +6,7 @@ CREATE TABLE series(
   subgenre_id INTEGER
 );
 
-CREATE TABLE sub_genre(
+CREATE TABLE subgenres(
   id INTEGER PRIMARY KEY,
   name TEXT
 );
@@ -34,5 +34,5 @@ CREATE TABLE characters(
 CREATE TABLE character_books(
   id INTEGER PRIMARY KEY,
   character_id INTEGER,
-  sbook_id INTEGER
+  book_id INTEGER
 );
