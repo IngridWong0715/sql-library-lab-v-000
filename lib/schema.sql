@@ -33,7 +33,6 @@ CREATE TABLE characters(
 
 CREATE TABLE character_books(
   id INTEGER PRIMARY KEY,
-  title TEXT,
   author_id INTEGER,
   subgenre_id INTEGER
 );
