@@ -13,8 +13,5 @@ CREATE TABLE sub_genre(
 
 CREATE TABLE authors(
   id INTEGER PRIMARY KEY,
-  title TEXT,
-  author_id INTEGER,
-  subgenre_id INTEGER
+  name TEXT
 );
-
