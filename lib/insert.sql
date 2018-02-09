@@ -17,5 +17,3 @@ INSERT INTO character_books (id, book_id, character_id) VALUES (9, 4, 5), (10, 4
 
 
 
-
-SELECT series.title FROM series JOIN characters ON series.id = characters.series_id GROUP BY characters.series_id ORDER BY COUNT * WHERE characters.species = 'human' DESC LIMIT 1; 
