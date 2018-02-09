@@ -26,6 +26,7 @@ CREATE TABLE books(
 CREATE TABLE characters(
   id INTEGER PRIMARY KEY,
   name TEXT,
-  motto INTEGER,
+  motto TEXT,
+  
   subgenre_id INTEGER
 );
