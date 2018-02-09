@@ -1,0 +1,1 @@
+INSERT INTO characters(name, etc.) VALUES ()
