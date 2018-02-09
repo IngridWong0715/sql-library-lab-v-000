@@ -27,6 +27,6 @@ CREATE TABLE characters(
   id INTEGER PRIMARY KEY,
   name TEXT,
   motto TEXT,
-  
+  species TEXT,
   subgenre_id INTEGER
 );
