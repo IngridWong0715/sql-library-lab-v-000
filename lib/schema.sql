@@ -19,6 +19,6 @@ CREATE TABLE authors(
 CREATE TABLE books(
   id INTEGER PRIMARY KEY,
   title TEXT,
-  author_id INTEGER,
+  year INTEGER,
   subgenre_id INTEGER
 );
