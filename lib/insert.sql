@@ -26,4 +26,4 @@ SELECT series.title FROM series WHERE series.id = max;
 SELECT series.title FROM series WHERE series.id = max;
 
 
-SELECT series.title FROM series JOIN characters ON series.id = characters.series_id GROUP BY HAVING 
+SELECT series.title FROM series JOIN characters ON series.id = characters.series_id GROUP BY series.id HAVING 
