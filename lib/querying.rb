@@ -9,7 +9,7 @@ end
 
 
 def select_value_and_count_of_most_prolific_species
-  "SELECT species, COUNT(characters.species) FROM characters WHERE species =  "
+  "SELECT characters.species, COUNT(characters.species) FROM characters WHERE count = MAX() "
 end
 
 def select_name_and_series_su
