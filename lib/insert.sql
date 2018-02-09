@@ -20,10 +20,10 @@ INSERT INTO character_books (id, book_id, character_id) VALUES (9, 4, 5), (10, 4
 max = SELECT series_id FROM characters GROUP BY series_id ORDER BY COUNT(species = 'human') DESC LIMIT 1;
 
 2. find the title of this corresponding series from series:
-SELECT series.title FROM series WHERE series.id = max; 
+SELECT series.title FROM series WHERE series.id = max;
 
 
-SELECT series.title FROM series WHERE series.id = max; 
+SELECT series.title FROM series WHERE series.id = max;
 
 
-SELECT series.title FROM series JOIN characters ON series.id = characters.series_id 
+SELECT series.title FROM series JOIN characters ON series.id = characters.series_id GROUP BY HAVING 
